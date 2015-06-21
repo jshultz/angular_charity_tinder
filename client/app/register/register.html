@@ -43,8 +43,9 @@
       <div class="form-group">
         <div class="col-sm-offset-4 col-sm-4">
           <p class="alert alert-danger" ng-show="error" ng-bind="error"></p>
-          <button type="submit" class="btn btn-primary" ng-disabled="creating">Register</button>
-        </div>
+          <input class="btn btn-default" type="button" ng-click="submit(formModel)" ng-disabled="creating" value="Save" />
+<!--           <button type="submit" class="btn btn-primary" ng-disabled="creating">Register</button>
+ -->        </div>
       </div>
     </form>
   </div>
